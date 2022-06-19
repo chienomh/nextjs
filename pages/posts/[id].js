@@ -13,7 +13,7 @@ export default function DetailPost({ data }) {
         <Link href="/posts">
           <a style={{ textDecoration: "underline" }}>List Post</a>
         </Link>
-        <span> > </span>
+        <span> &gt; </span>
         <span>{data.text}</span>
       </div>
       <div style={{ display: "flex" }}>
